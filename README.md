@@ -77,8 +77,6 @@ git clone https://github.com/pierandreamorelli/pdf_to_md.git
 cd pdf_to_md
 ```
 
-Sostituisci `<URL_DELLA_REPO>` con l'URL GitHub del progetto.
-
 Se `git clone` non funziona, installa Git:
 
 ```bash
@@ -206,10 +204,6 @@ Se `curl` risponde con una lista di modelli, riavvia l'app:
 ### Il primo avvio e' lento
 
 E' normale. Al primo avvio lo script scarica il modello `glm-ocr:latest`, che puo' richiedere diversi minuti.
-
-### Su Streamlit Cloud non funziona
-
-E' previsto: Streamlit Cloud non ha accesso al tuo Ollama locale. Per condividerla senza installazione locale serve un server tuo con Ollama oppure una API cloud al posto di Ollama.
 
 ## Requisiti tecnici
 
